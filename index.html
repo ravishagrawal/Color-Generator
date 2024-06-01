@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form id="color-form">
+            <input type="color" id="color-selector" name="color-selector" value="#ff0000">
+            <select id="mode" name="colors">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <input type="submit" value="Get Color Scheme" id="submit">
+        </form>
+        <div class="grid-container">
+            <div class="grid-color">
+                
+                <div class="color-bg-1" id="color-bg-1"></div>
+                <div class="color-bg-2" id="color-bg-2"></div>
+                <div class="color-bg-3" id="color-bg-3"></div>
+                <div class="color-bg-4" id="color-bg-4"></div>
+                <div class="color-bg-5" id="color-bg-5"></div>
+                <div class="color-bg-6" id="color-bg-6"></div> 
+            </div>
+            <div class="color-name" id= "color-name">
+                
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+       

@@ -1,0 +1,100 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    grid-gap: .5em;
+    margin: 1em .5em;
+}
+
+input[type="color"] {
+  height: 2.5em;
+  width: 3em;
+
+  background: #E5E5E5;
+  cursor: pointer;
+  border: 0.5px solid #D1D5DB;
+}
+
+select {
+    border: 1px solid #D1D5DB;
+    border-radius: 6px;
+    padding: .35em;
+    width: 15em;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    color: #111827;
+
+}
+
+input[type="submit"] {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    color: #374151;
+    padding: .7em;
+}
+
+.grid-container {
+    
+}
+
+.grid-color {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-flow: column;
+        height: 75vh;
+        margin-left: .5em;
+        margin-right: .5em;
+        margin-top: 0;
+        border: 1px solid #D1D5DB;
+    }
+
+.color-bg-1 {
+    background: red;
+}
+
+.color-bg-2 {
+    background: yellow;
+}
+
+.color-bg-3 {
+    background: green;
+}
+
+.color-bg-4 {
+    background: blue;
+}
+
+.color-bg-5 {
+    background: violet;
+}
+
+.color-bg-6 {
+    background: purple;
+}
+
+.color-name {
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-auto-flow: column;
+        line-height: 2em;
+        height: 2em;
+        padding-left: .5em;
+        padding-right: .5em;
+        
+
+    }
+
+.color-type {
+    padding-left: .5em;
+    box-shadow: 0px 4px 11px 0px #00000026;
+}
+    
+.color-name p {
+    margin: 0em;
+    font-size: .75em;
+}
